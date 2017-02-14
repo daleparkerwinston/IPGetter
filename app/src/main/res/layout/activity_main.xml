@@ -23,18 +23,6 @@
         android:textSize="24sp" />
 
     <Button
-        android:text="@string/capture_ip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textViewShowIP"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="43dp"
-        android:id="@+id/buttonCaptureIP"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <Button
         android:text="@string/send_data"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,5 +32,28 @@
         android:id="@+id/buttonSendData"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/capture_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="93dp"
+        android:id="@+id/buttonCaptureIP"
+        android:layout_below="@+id/textViewShowIP"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textViewPublicIP"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textViewShowIP"
+        android:textSize="24sp" />
 
 </RelativeLayout>

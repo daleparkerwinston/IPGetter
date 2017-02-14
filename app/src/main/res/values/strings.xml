@@ -7,4 +7,7 @@
     <string name="capture_ip">Capture IP</string>
 
     <string name="send_data">Send Data</string>
+
+    <string name="host_ip_string">Host IP:</string>
+    <string name="public_ip_string">Public IP:</string>
 </resources>
