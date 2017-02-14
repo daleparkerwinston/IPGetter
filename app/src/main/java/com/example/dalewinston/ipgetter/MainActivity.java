@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 // Get host ip
                 String wifiIpAddress = getWifiIpAddress(getApplicationContext());
                 if (wifiIpAddress != null) {
-                    String hostIpString = R.string.host_ip_string + " " + wifiIpAddress;
+                    String hostIpString = "Host IP: " + wifiIpAddress;
                     textViewShowIP.setText(hostIpString);
                     ipList.add(wifiIpAddress);
                 } else {
