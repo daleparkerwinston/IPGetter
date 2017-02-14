@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IPGetter</string>
+
+    <string name="ip_waiting">Waiting for IP capture.</string>
+    <string name="ip_fail">Unable to get host address.</string>
+
+    <string name="capture_ip">Capture IP</string>
+
+    <string name="send_data">Send Data</string>
+</resources>
